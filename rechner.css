@@ -1,0 +1,108 @@
+body {
+  background-color: #424242;
+  font-family: Tahoma;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+#container {
+  width: 200px;
+  padding: 8px 8px 20px 8px;
+  margin: 20px auto;
+  background-color: #ABABAB;
+  border: 2px solid #FFF;
+}
+
+#display {
+  display: block;
+  margin: 15px auto;
+  height: 42px;
+  width: 174px;
+  padding: 0 10px;
+  border-radius: 4px;
+  border: 2px solid #000000;
+  background-color: #FFF;
+  box-shadow: inset 0px 0px 10px #fff, inset 0px -20px 1px rgba(150, 150, 150, 0.2);
+  font-size: 28px;
+  text-align: right;
+  font-weight: 400;
+}
+
+.button {
+  display: inline-block;
+  margin: 2px;
+  width: 42px;
+  height: 42px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+/* Knöpfe wie +/-/*...*/
+.mathButtons {
+  margin: 2px 2px 6px 2px;
+  color: #FFF;
+  text-shadow: -1px -1px 0px #44006F;
+  background-color: #434343;
+  border: 2px solid #C1C1C1;
+  box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px #2E2E2E;
+}
+  
+/* Gelb Effekt*/
+.button:hover, 
+.mathButtons:hover,
+#clearButton:hover {
+  background-color: #FFBA75;
+  box-shadow: 0px 0px 2px #FFBA75, inset 0px -20px 1px #FF8000;
+  border-top: 2px solid #FFF;
+  border-right: 2px solid #FFF;
+}
+
+#clearButton {
+  color: #FFF;
+  text-shadow: -1px -1px 0px #44006F;
+  background-color: #D20000;
+}
+
+
+
+
+/* Startbildschirm-Stil */
+
+.start-box {
+  background-color: #8b8b8b;
+  padding: 40px;
+  border: 2px solid rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ffffff;
+}
+
+.start-box h1 {
+  font-size: 32px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  
+}
+
+#startButton {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+    box-shadow: 0 0 10px #51ff76;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#startButton:hover {
+  background-color: #45a049;
+}
