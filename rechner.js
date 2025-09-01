@@ -5,8 +5,9 @@ window.addEventListener('DOMContentLoaded', function () {
   const calculator = document.getElementById('calculatorContainer');
 
   startBtn.addEventListener('click', function () {
-    startScreen.style.display = 'none'; //Versteckt Startbildschirm
-    calculator.style.display = 'flex'; //zeigt Rechner
+    startScreen.style.display = 'none'; 
+    calculator.style.display = 'flex'; 
   });
 });
+
 
