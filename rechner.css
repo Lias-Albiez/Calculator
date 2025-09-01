@@ -3,6 +3,7 @@ body {
   font-family: Tahoma;
 }
 
+
 .container {
   display: flex;
   align-items: center;
@@ -44,7 +45,6 @@ body {
   border-radius: 4px;
 }
 
-/* Knöpfe wie +/-/*...*/
 .mathButtons {
   margin: 2px 2px 6px 2px;
   color: #FFF;
@@ -54,7 +54,7 @@ body {
   box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px #2E2E2E;
 }
   
-/* Gelb Effekt*/
+
 .button:hover, 
 .mathButtons:hover,
 #clearButton:hover {
@@ -73,7 +73,7 @@ body {
 
 
 
-/* Startbildschirm-Stil */
+
 
 .start-box {
   background-color: #8b8b8b;
@@ -106,3 +106,4 @@ body {
 #startButton:hover {
   background-color: #45a049;
 }
+
