@@ -2,4 +2,5 @@
 Ich habe dieses mini Projekt ausgewählt, um die Grundlagen von JavaScript, HTML/CSS zu erlernen und ein erstes mal anzuwenden.
 
 # Das Ergebniss:
-<img width="300" height="180" alt="Startbildschirm Rechner" src="https://github.com/user-attachments/assets/d5a45c25-57f9-48dc-9b4c-886f6ef3589a" />
+
+<img width="430" height="281" alt="Startbildschirm Rechner" src="https://github.com/user-attachments/assets/251efd0d-9598-4174-a815-d76109606c13" />
